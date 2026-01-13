@@ -1,0 +1,121 @@
+{
+  "meridiens": [
+    {
+      "nom": "Poumon (P)",
+      "couleur": "#FF0000",
+      "points": [
+        {"nom": "P1 (Zhongfu)", "coords": [0.1, 0.5, 0.0], "description": "Point Mu du Poumon, pour les troubles respiratoires.", "bloque": false},
+        {"nom": "P5 (Chize)", "coords": [0.15, 0.4, 0.1], "description": "Point Mer, élimine la chaleur du Poumon.", "bloque": false},
+        {"nom": "P7 (Lieque)", "coords": [0.2, 0.3, 0.05], "description": "Point Luo, connecté au méridien du Gros Intestin.", "bloque": false},
+        {"nom": "P9 (Taiyuan)", "coords": [0.25, 0.2, 0.15], "description": "Point Source, renforce le Qi du Poumon.", "bloque": false},
+        {"nom": "P11 (Shaoshang)", "coords": [0.3, 0.1, 0.0], "description": "Point Puits, pour les urgences respiratoires.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Gros Intestin (GI)",
+      "couleur": "#FF6600",
+      "points": [
+        {"nom": "GI4 (Hegu)", "coords": [0.25, 0.0, -0.1], "description": "Point Source, soulage les maux de tête et les douleurs faciales.", "bloque": false},
+        {"nom": "GI10 (Shousanli)", "coords": [0.2, -0.1, -0.05], "description": "Renforce l'énergie et l'immunité.", "bloque": false},
+        {"nom": "GI11 (Quchi)", "coords": [0.15, -0.2, -0.1], "description": "Élimine la chaleur et l'humidité.", "bloque": false},
+        {"nom": "GI20 (Yingxiang)", "coords": [0.1, 0.1, 0.2], "description": "Ouvre les voies nasales.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Estomac (E)",
+      "couleur": "#FFFF00",
+      "points": [
+        {"nom": "E36 (Zusanli)", "coords": [0.0, -0.3, 0.0], "description": "Point Mer, renforce la rate et l'estomac.", "bloque": false},
+        {"nom": "E44 (Neiting)", "coords": [0.05, -0.4, 0.05], "description": "Clarifie la chaleur de l'Estomac.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Rate-Pancréas (RP)",
+      "couleur": "#99FF00",
+      "points": [
+        {"nom": "RP3 (Taibai)", "coords": [-0.05, -0.3, 0.0], "description": "Point Source, tonifie la Rate.", "bloque": false},
+        {"nom": "RP6 (Sanyinjiao)", "coords": [-0.1, -0.5, 0.1], "description": "Point de croisement des 3 méridiens Yin de la jambe.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Cœur (C)",
+      "couleur": "#FF00FF",
+      "points": [
+        {"nom": "C7 (Shenmen)", "coords": [0.0, 0.0, 0.2], "description": "Calme l'esprit et régule le Cœur.", "bloque": false},
+        {"nom": "C9 (Shaochong)", "coords": [0.1, 0.05, 0.25], "description": "Point Puits, pour les urgences cardiaques.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Intestin Grêle (IG)",
+      "couleur": "#CC00FF",
+      "points": [
+        {"nom": "IG3 (Houxi)", "coords": [-0.15, -0.1, -0.1], "description": "Point Shu du dos, pour les douleurs cervicales.", "bloque": false},
+        {"nom": "IG19 (Tinggong)", "coords": [-0.1, 0.2, 0.15], "description": "Pour les acouphènes et les maux d'oreille.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Vessie (V)",
+      "couleur": "#0000FF",
+      "points": [
+        {"nom": "V10 (Tianzhu)", "coords": [-0.2, 0.3, -0.1], "description": "Soulage les tensions cervicales.", "bloque": false},
+        {"nom": "V40 (Weizhong)", "coords": [-0.15, -0.6, 0.0], "description": "Point Mer, pour les douleurs lombaires.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Rein (Rn)",
+      "couleur": "#0066FF",
+      "points": [
+        {"nom": "Rn3 (Taixi)", "coords": [-0.2, -0.4, 0.05], "description": "Point Source, tonifie le Rein.", "bloque": false},
+        {"nom": "Rn7 (Fuliu)", "coords": [-0.15, -0.3, 0.1], "description": "Régule la transpiration et les œdèmes.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Maître Cœur (MC)",
+      "couleur": "#FF00AA",
+      "points": [
+        {"nom": "MC6 (Neiguan)", "coords": [0.1, -0.1, 0.1], "description": "Point Luo, calme l'esprit et ouvre la poitrine.", "bloque": false},
+        {"nom": "MC8 (Laogong)", "coords": [0.15, -0.2, 0.15], "description": "Pour les douleurs cardiaques et les nausées.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Triple Réchauffeur (TR)",
+      "couleur": "#AA00FF",
+      "points": [
+        {"nom": "TR5 (Waiguan)", "coords": [0.2, -0.2, -0.05], "description": "Point Luo, pour les douleurs latérales de la tête.", "bloque": false},
+        {"nom": "TR10 (Tianjing)", "coords": [0.25, 0.0, -0.15], "description": "Élimine la chaleur du Triple Réchauffeur.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Vésicule Biliaire (VB)",
+      "couleur": "#00FF66",
+      "points": [
+        {"nom": "VB20 (Fengchi)", "coords": [-0.25, 0.2, -0.1], "description": "Pour les migraines et les vertiges.", "bloque": false},
+        {"nom": "VB34 (Yanglingquan)", "coords": [-0.2, -0.4, 0.0], "description": "Point Mer, pour les douleurs des membres inférieurs.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Foie (F)",
+      "couleur": "#00FF00",
+      "points": [
+        {"nom": "F3 (Taichong)", "coords": [-0.1, -0.3, 0.0], "description": "Point Source, régule le Foie et le Qi.", "bloque": false},
+        {"nom": "F14 (Qimen)", "coords": [-0.05, -0.1, 0.1], "description": "Point Mu du Foie, pour les stagnations.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Conception (VC)",
+      "couleur": "#FF9900",
+      "points": [
+        {"nom": "VC4 (Guanyuan)", "coords": [0.0, -0.2, 0.2], "description": "Tonifie le Qi originel.", "bloque": false},
+        {"nom": "VC17 (Shanzhong)", "coords": [0.0, 0.1, 0.3], "description": "Point Mu du Péricarde, pour l'anxiété.", "bloque": false}
+      ]
+    },
+    {
+      "nom": "Gouverneur (VG)",
+      "couleur": "#FF3300",
+      "points": [
+        {"nom": "VG14 (Dazhui)", "coords": [0.0, 0.4, -0.2], "description": "Renforce le Yang et l'immunité.", "bloque": false},
+        {"nom": "VG20 (Baihui)", "coords": [0.0, 0.5, 0.3], "description": "Point de réunion, élève le Qi.", "bloque": false}
+      ]
+    }
+  ]
+}
